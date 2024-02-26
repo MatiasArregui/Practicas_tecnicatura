@@ -8,7 +8,7 @@ def generador():
     # Contar y acumular los divisibles por 5. 
     div2, div3, div4, div5, acum2, acum3, acum4, acum5 = 0, 0, 0, 0, 0, 0, 0, 0
     # Generar números aleatorios entre 100 y 999 (random.randint(100, 999).
-    for x in range(0,21):
+    for x in range(20):
         numeroRandom= randint(100,999)
         if numeroRandom % 2 == 0:
             acum2+=numeroRandom
