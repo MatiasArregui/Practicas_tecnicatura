@@ -1,7 +1,7 @@
 def generadorLista():
     from random import randint
     # Generar lista
-    lista = [randint(0,999) for x in range(20)]
+    lista = [randint(100,999) for x in range(20)]
     # a. Generar una lista de 20 números enteros al azar de 3 dígitos.
     # b. Mostrar toda lista.
     print(f"Lista creada: {lista}")
