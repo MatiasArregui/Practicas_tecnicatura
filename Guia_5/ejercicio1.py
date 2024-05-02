@@ -15,7 +15,7 @@ def buscadorPalabra(texto):
                 break
             else:
                 # 6. Para buscar utilizar texto.find
-                busqueda = texto.find(" " + palabra + " ")
+                busqueda = texto.lower().find(" " + palabra + " ")
                 # 7. Si la búsqueda devuelve -1, mostrar el cartel “La palabra no se encuentra”
                 if busqueda != -1:
                     textoNuevo = texto.split()
